@@ -1,7 +1,3 @@
-var config = {}
-
-// Change settings here
-
 // Server type
 // Should be any JS file under the servertypes directory, omit the .js
 const servertype = 'basic'
@@ -18,16 +14,4 @@ const cert = ''
 const username = "username"
 const password = "password"
 
-// Don't change anything beyond this point
-
-config.servertype = servertype
-
-config.port = process.argv[2] || web_port
-
-config.key = key
-config.cert = cert
-
-config.username = username
-config.password = password
-
-module.exports = config
+module.exports = {servertype, key, cert, username, password, port: process.argv[2] || web_port};
