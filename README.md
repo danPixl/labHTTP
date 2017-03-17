@@ -1,4 +1,4 @@
-<img style="margin-left: -8px;" src="http://github.racklab.xyz/images/monorail/logo/transparent.png">
+<img style="margin-left: -8px;" src="https://cdn.rawgit.com/leo60228/Monorail/cb255164927e6398ef688bce9f709ad0399f6381/Monorail.svg">
 
 <p style="font-family: 'Fugaz One', sans-serif; font-size: 1.1rem; margin-top: -25px;">Node.JS Webserver</p>
 <p  style="font-family: 'Fugaz One', sans-serif; font-size: 0.9rem;">A Racklab project</p>
